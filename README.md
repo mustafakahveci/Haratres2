@@ -4,6 +4,8 @@ alınan girdilere göre ürünleri kaydetme, sonra da belirli kriterlere göre b
 olacak. Kullanıcının ürün sayısı, her bir ürün için ad, fiyat, stok miktarı ve değerlendirme puanı gibi bilgileri 
 girebilmesini, sonrasında ise bu ürünlerin farklı kriterlere göre sıralanabilmesini ve kullanıcının seçeceği ürünleri 
 sepete eklemesini sağlayan bir Java programı tasarlanmalıdır.
+
+
 Ürün Bilgilerinin Alınması:
  - Kullanıcıdan kaç adet ürün gireceğini sorun. (Birden fazla farklı ürün girişi yapılmalıdır, aksi taktirde 
 uyarı verin)
@@ -14,20 +16,28 @@ istenmelidir.
 - Stok miktarı en az 1 olmalıdır. 1’den az olduğunda kullanıcıya uyarı verip tekrar girilmesi istenmelidir.
  - Ürün adı bilgisi en fazla 20 karakter olmalıdır. Aksi takdirde kullanıcıya uyarı verip tekrar girilmesi 
 istenmelidir.
+
+
 • Sıralama:
  - Kullanıcıdan ürünleri hangi kritere göre sıralamak istediğini sorun (örneğin, ad, stok, değerlendirme).
 - Kullanıcıdan sıralamanın artan mı yoksa azalan mı olacağını sorun.
 - Seçilen kritere ve sıralama türüne göre ürün listesini sıralayın.
+
+  
 • Sepete Ekleme:
  - Sıralama sonrası, kullanıcıya sepete ürün ekleyip eklemek istemediğini sorun.
  - Kullanıcı ürün eklemek istiyorsa, sepete en az iki ürün olacak şekilde ürün adını ve eklemek istediği 
 adedi belirterek ürün girişi sağlanır. 
 - Girilen ürün adı kontrol edilir ve stok miktarı yeterli ise ürün sepete eklenir. Aksi takdirde, stokta yeterli 
 ürün olmadığı belirlelir ve kullanıcıdan yeni bir adet girmesi istenir.
+
+
 • Sepete Tutarı Hesaplama:
 - Kullanıcı ürün eklemeyi bitirdiğinde, sepetin toplam tutarı aşağıdaki mantığa göre hesaplanacaktır:
 - Sepeee eklenme sırasına göre ilk ürün fiyatı ikinci üründen fazla ise ilk üründen ikinci ürünün birim 
-maliyeti kadar indirim yapılır. Bu mantık sepetin tüm ürünleri dikkate alınarak hesaplanacaktır. 
+maliyeti kadar indirim yapılır. Bu mantık sepetin tüm ürünleri dikkate alınarak hesaplanacaktır.
+
+
 Örnek: 
 İki ürün için oluşturulan sepetin ilk hali :
 Ürün Adı Adet Birim Fiyat Toplam
